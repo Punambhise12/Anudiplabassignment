@@ -8,10 +8,10 @@ public class Main{
 	public static void main(String[] args) 
 	{
 		List<Agent> data = new ArrayList<>();
-		data.add(new Agent(101,"Priya","Chinchwad"));
-		data.add(new Agent(102,"Apurwa","Mumbai"));
-		data.add(new Agent(103,"Shruti","Pune"));
-		data.add(new Agent(104,"Sheetal","Nashik"));
+		data.add(new Agent(101,"Punam","Chinchwad"));
+		data.add(new Agent(102,"Ashwini","Mumbai"));
+		data.add(new Agent(103,"Kajal","Pune"));
+		data.add(new Agent(104,"Shital","Nashik"));
 		Collections.sort(data);
 		for (Agent i:data)
 		{
